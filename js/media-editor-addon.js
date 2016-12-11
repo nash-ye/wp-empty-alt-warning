@@ -10,9 +10,7 @@
 		    if (confirmed) {
 			orginalInsertCallback(html);
 		    } else {
-			/*
-			 * The media frame should be opened again, or something!
-			 */
+                        wp.media.editor.open();
 		    }
 		} else {
 		    orginalInsertCallback(html);
