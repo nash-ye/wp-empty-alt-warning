@@ -6,7 +6,7 @@
 	    wp.media.editor.insert = function(html) {
 		var image = $(html).find('img').addBack('img').first();
 		if (image && ! image.attr('alt')) {
-		    var confirmed = confirm("An image without alternative text had been inserted!");
+		    var confirmed = confirm(emptyAltWarningSettings.warningText);
 		    if (confirmed) {
 			orginalInsertCallback(html);
 		    } else {
