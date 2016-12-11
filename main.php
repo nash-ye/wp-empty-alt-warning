@@ -5,7 +5,7 @@ Plugin URI: https://github.com/nash-ye/wp-empty-alt-warning
 Description: A simple plugin to warn authors when an image with empty alternative text inserted.
 Author: Nashwan Doaqan
 Author URI: http://nashwan-d.com
-Version: 0.1.2
+Version: 0.1.3
 */
 
 add_action( 'admin_enqueue_scripts', 'eaw_admin_register_scripts' );
